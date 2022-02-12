@@ -43,7 +43,7 @@
 .main-div-to-do-lst div:first-child {
     text-align: left;
     overflow-y: auto;
-
+    width: 60%;
 }
 
 .main-div-to-do-lst div:first-child label {
