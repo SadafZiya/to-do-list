@@ -1,0 +1,9 @@
+{
+  "short_name": "to-do-list",
+  "name": "Create React App to-do-list sample",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
