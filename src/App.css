@@ -30,7 +30,6 @@
 
 .main-div-to-do-lst {
     background-color: #343333;
-    padding: 5px 15px;
     border-radius: 5px;
     display: flex;
     width: 700px;
@@ -44,20 +43,35 @@
     text-align: left;
     overflow-y: auto;
     width: 60%;
+    padding: 5px 0;
 }
 
 .main-div-to-do-lst div:first-child label {
     margin-bottom: 10px;
-    display: block;
 }
 
 .main-div-to-do-lst div:first-child input:checked ~ span {
     text-decoration: line-through;
 }
 
+.main-div-to-do-lst div:first-child section {
+    padding: 3px 5px 5px 5px;
+}
+
+.main-div-to-do-lst div:first-child section:hover {
+    background-color: rgba(117, 118, 126, 0.66);
+}
+
+.main-div-to-do-lst div:first-child img {
+    float: right;
+    width: 24px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
 .main-div-to-do-lst div:last-child {
     border-left: dashed;
-    padding-left: 10px;
+    padding: 5px 10px 0 10px;
 }
 
 .main-div-to-do-lst div:last-child input {
@@ -76,6 +90,13 @@
     outline: none;
     border: none;
     height: 33px;
+}
+
+.text-to-do-error {
+    display: block;
+    font-size: 10px;
+    color: red;
+    text-align: left;
 }
 
 @keyframes App-logo-spin {
